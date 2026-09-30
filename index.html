@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cheapest Grocery List</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1d2520; --mute:#66706a; --card:#fff; --line:#dde2dc; --acc:#1f7a4d; --warn:#b4541a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121613; --fg:#e7ece8; --mute:#93a09a; --card:#1a201c; --line:#2b342e; --acc:#4cc38a; --warn:#e89260; } }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.45 system-ui,sans-serif }
+  main { max-width:900px; margin:0 auto; padding:20px 16px 60px }
+  h1 { font-size:1.4rem; margin:0 0 4px } h2 { font-size:1.05rem; margin:0 0 8px }
+  .sub { color:var(--mute); margin:0 0 16px; font-size:.9rem }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px } @media (max-width:700px){ .grid{grid-template-columns:1fr} }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px }
+  textarea { width:100%; height:200px; font:inherit; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:8px; padding:10px }
+  button { font:inherit; background:var(--acc); color:#fff; border:0; border-radius:8px; padding:8px 14px; cursor:pointer }
+  button.ghost { background:transparent; color:var(--acc); border:1px solid var(--line) }
+  table { width:100%; border-collapse:collapse; font-size:.92rem } td,th { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); vertical-align:top }
+  select { font:inherit; max-width:100%; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:6px; padding:3px }
+  .mute { color:var(--mute) } .warn { color:var(--warn) } .tot { font-weight:600 }
+  .stores span { display:inline-block; margin:0 10px 4px 0; font-size:.85rem } .stores b { color:var(--acc) }
+  input[type=text], input[type=number] { font:inherit; background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:6px; padding:5px 8px; width:100% }
+  .row { display:flex; gap:6px; margin-bottom:6px } .row>* { flex:1 } details { margin-top:12px }
+</style>
+</head>
+<body>
+<main>
+  <h1>Cheapest grocery list</h1>
+  <p class="sub">One item per line. Each is matched against every store's current prices and the cheapest match wins; change any match from its dropdown.</p>
+
+  <div class="card stores" id="stores">Loading stores…</div>
+  <div class="grid" style="margin-top:16px">
+    <div class="card">
+      <h2>Your list</h2>
+      <textarea id="list" placeholder="gala apples&#10;bananas&#10;strawberries&#10;avocado"></textarea>
+      <div style="margin-top:8px"><button id="go">Build shopping list</button>
+        <button class="ghost" id="sample">Sample list</button></div>
+      <details><summary>Add a price from another store (saved in this browser)</summary>
+        <div class="row" style="margin-top:8px"><input type="text" id="m-store" placeholder="Store"><input type="text" id="m-name" placeholder="Item, e.g. Gala Apples"></div>
+        <div class="row"><input type="text" id="m-size" placeholder="Size, e.g. 3 lb"><input type="number" id="m-price" step="0.01" placeholder="Price"><input type="number" id="m-lb" step="0.01" placeholder="$/lb (optional)"></div>
+        <button class="ghost" id="m-add">Add</button> <button class="ghost" id="m-clear">Clear manual prices</button>
+        <div class="mute" id="m-count"></div>
+      </details>
+    </div>
+    <div class="card" id="result"><h2>Shopping list</h2><p class="mute">Your list will appear here, grouped by store.</p></div>
+  </div>
+  <div class="card" id="detail" style="margin-top:16px;display:none"></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let products = [], storeNames = [];
+const MKEY = 'groceries.manual';
+const manual = () => { try { return JSON.parse(localStorage.getItem(MKEY) || '[]') } catch { return [] } };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+const stem = w => w.replace(/(ies)$/, 'y').replace(/(es)$/, m => 'es').replace(/s$/, '');
+const tokens = s => (s.toLowerCase().match(/[a-z]+/g) || []).map(w => w.endsWith('ies') ? w.slice(0,-3)+'y' : w.replace(/(oes|ches)$/, m => m.slice(0,-2)).replace(/s$/, ''));
+
+// "$1.25 / lb" -> {kind:'lb', v:1.25}; anything else compares by package price
+function unitOf(p) {
+  const m = /\$([\d.]+)\s*\/\s*lb/i.exec(p.unit_price || '');
+  return m ? { kind:'lb', v:+m[1] } : { kind:'pkg', v:p.price };
+}
+
+async function load() {
+  const stores = await (await fetch('stores.json')).json();
+  products = [];
+  for (const s of stores) {
+    try {
+      const rows = await (await fetch(s.file)).json();
+      rows.forEach(r => products.push({ ...r, store:s.name }));
+    } catch { $('stores').dataset.err = 1; }
+  }
+  manual().forEach(r => products.push(r));
+  products.forEach(p => { p.tok = new Set(tokens(p.name)); p.u = unitOf(p); });
+  storeNames = [...new Set(products.map(p => p.store))];
+  $('stores').innerHTML = storeNames.map(n => `<span><b>${esc(n)}</b> · ${products.filter(p=>p.store===n).length} items</span>`).join('') || 'No store data found.';
+  $('m-count').textContent = manual().length ? `${manual().length} manual price(s) saved` : '';
+}
+
+// all products containing every query word, cheapest first (per-lb prices rank together)
+function candidates(q) {
+  const qt = tokens(q); if (!qt.length) return [];
+  const hits = products.filter(p => qt.every(t => p.tok.has(t)));
+  const lb = hits.filter(p => p.u.kind === 'lb').length >= 2;
+  return hits.sort((a, b) => {
+    if (lb && (a.u.kind === 'lb') !== (b.u.kind === 'lb')) return a.u.kind === 'lb' ? -1 : 1;
+    return (lb ? a.u.v - b.u.v : a.price - b.price) || a.price - b.price;
+  });
+}
+
+let rows = [];
+function build() {
+  const lines = $('list').value.split('\n').map(s => s.trim()).filter(Boolean);
+  rows = lines.map(q => ({ q, c: candidates(q), pick: 0 }));
+  render();
+}
+
+const money = n => '$' + n.toFixed(2);
+function render() {
+  const by = {};
+  rows.forEach(r => { const p = r.c[r.pick]; if (p) (by[p.store] ||= []).push({ q:r.q, p }); });
+  let total = 0, h = '<h2>Shopping list</h2>';
+  for (const [store, items] of Object.entries(by)) {
+    const sub = items.reduce((t, i) => t + i.p.price, 0); total += sub;
+    h += `<h2 style="margin-top:14px">${esc(store)} <span class="mute">· ${money(sub)}</span></h2><table>` +
+      items.map(i => `<tr><td>${esc(i.p.name)}<div class="mute">${esc(i.p.size || '')} ${i.p.u.kind==='lb' ? '· '+money(i.p.u.v)+'/lb' : ''}</div></td><td style="text-align:right">${esc(i.p.price_text || money(i.p.price))}</td></tr>`).join('') + '</table>';
+  }
+  const miss = rows.filter(r => !r.c.length).map(r => r.q);
+  if (!Object.keys(by).length) h += '<p class="mute">No matches.</p>'; else h += `<p class="tot">Total (package prices): ${money(total)}</p>`;
+  if (miss.length) h += `<p class="warn">Not found: ${miss.map(esc).join(', ')}</p>`;
+  $('result').innerHTML = h;
+
+  const d = $('detail'); d.style.display = rows.length ? '' : 'none';
+  d.innerHTML = '<h2>Matches (change any you don\'t want)</h2><table>' + rows.map((r, i) => `<tr><td>${esc(r.q)}</td><td>` + (r.c.length
+    ? `<select data-i="${i}">${r.c.map((p, j) => `<option value="${j}" ${j===r.pick?'selected':''}>${esc(p.store)} — ${esc(p.name)} (${esc(p.size||'')}) ${esc(p.price_text||money(p.price))}${p.u.kind==='lb' ? ' · '+money(p.u.v)+'/lb' : ''}</option>`).join('')}</select>`
+    : '<span class="warn">no match</span>') + '</td></tr>').join('') + '</table>';
+  d.querySelectorAll('select').forEach(s => s.onchange = () => { rows[s.dataset.i].pick = +s.value; render(); });
+}
+
+$('go').onclick = build;
+$('sample').onclick = () => { $('list').value = 'gala apples\nbananas\nstrawberries\navocado\nblueberries\ngarlic\nkiwi\nmilk'; build(); };
+$('m-add').onclick = () => {
+  const store = $('m-store').value.trim(), name = $('m-name').value.trim(), price = parseFloat($('m-price').value);
+  if (!store || !name || isNaN(price)) return;
+  const lb = parseFloat($('m-lb').value), size = $('m-size').value.trim();
+  const m = manual(); m.push({ store, name, size, price, price_text: money(price), unit_price: isNaN(lb) ? null : `$${lb.toFixed(2)} / lb` });
+  try { localStorage.setItem(MKEY, JSON.stringify(m)); } catch {}
+  load().then(() => rows.length && build());
+};
+$('m-clear').onclick = () => { try { localStorage.removeItem(MKEY); } catch {} load().then(() => rows.length && build()); };
+load();
+</script>
+</body>
+</html>
