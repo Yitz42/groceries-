@@ -25,6 +25,23 @@ def fetch(url=URL):
         return r.read().decode("utf-8", "replace")
 
 
+def unit_price(price, size, price_text, card_unit):
+    """Best-effort "$x / lb" (or "/ each"); ALDI's own field is sometimes just the size."""
+    if card_unit and "/" in card_unit:
+        return card_unit
+    if price_text and re.search(r"/\s*lb", price_text):
+        return price_text
+    m = re.match(r"([\d.]+)\s*(lb|oz|ct|each|container)", size or "")
+    if price is None or not m or float(m.group(1)) == 0:
+        return None
+    qty, unit = float(m.group(1)), m.group(2)
+    if unit == "lb":
+        return f"${price / qty:.2f} / lb"
+    if unit == "oz":
+        return f"${price / qty * 16:.2f} / lb"
+    return f"${price / qty:.2f} / each"
+
+
 def parse(html):
     text = urllib.parse.unquote(html)
     dec = json.JSONDecoder()
@@ -36,13 +53,15 @@ def parse(html):
             continue
         p = (o.get("price") or {}).get("viewSection") or {}
         card = p.get("itemCard") or {}
+        price = float(p["priceValueString"]) if p.get("priceValueString") else None
+        price_text = card.get("priceString") or p.get("priceString")
         items[o["id"]] = {
             "id": o["productId"],
             "name": o["name"],
             "size": o.get("size"),
-            "price": float(p["priceValueString"]) if p.get("priceValueString") else None,
-            "price_text": card.get("priceString") or p.get("priceString"),
-            "unit_price": card.get("pricingUnitString"),  # e.g. "$0.47 / lb"
+            "price": price,
+            "price_text": price_text,
+            "unit_price": unit_price(price, o.get("size"), price_text, card.get("pricingUnitString")),
             "url": f"https://www.aldi.us/store/aldi/products/{o['evergreenUrl']}" if o.get("evergreenUrl") else None,
         }
     return list(items.values())
