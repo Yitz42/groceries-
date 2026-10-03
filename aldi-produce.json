@@ -45,15 +45,6 @@
     "url": "https://www.aldi.us/store/aldi/products/3253915-gala-apple-bag-3-lbs"
   },
   {
-    "id": "16502094",
-    "name": "Fuji Apples",
-    "size": "3 lb",
-    "price": 2.69,
-    "price_text": "$2.69",
-    "unit_price": "$0.90 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16502094-fuji-apple-3-lbs"
-  },
-  {
     "id": "16642268",
     "name": "Organic Gala Apples",
     "size": "3 lb",
@@ -72,15 +63,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16701868-granny-smith-apple-bag-3-lbs"
   },
   {
-    "id": "16553273",
-    "name": "Red Delicious Apples",
-    "size": "3 lb",
-    "price": 2.69,
-    "price_text": "$2.69",
-    "unit_price": "$0.90 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16553273-red-delicious-apple-bag-3-lbs"
-  },
-  {
     "id": "17819978",
     "name": "Garlic",
     "size": "3 ct",
@@ -90,22 +72,31 @@
     "url": "https://www.aldi.us/store/aldi/products/17819978-garlic-3-ct"
   },
   {
-    "id": "25720157",
-    "name": "Bananas, per lb",
+    "id": "20611721",
+    "name": "Butternut Squash, per lb",
     "size": "per lb",
-    "price": 0.15,
-    "price_text": "$0.15 each (est.)",
-    "unit_price": "$0.44 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
+    "price": 2.45,
+    "price_text": "$2.45 each (est.)",
+    "unit_price": "$0.89 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/20611721-frey-farms-butternut-squash-1-each"
   },
   {
-    "id": "16527122",
-    "name": "Mandarin Oranges",
-    "size": "3 lb",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$1.46 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
+    "id": "40806479",
+    "name": "Fresh Spaghetti Squash",
+    "size": "per lb",
+    "price": 2.67,
+    "price_text": "$2.67 each (est.)",
+    "unit_price": "$0.89 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/40806479-spaghetti-squash-lb"
+  },
+  {
+    "id": "19242784",
+    "name": "Green Grapes, per lb",
+    "size": "per lb",
+    "price": 2.9,
+    "price_text": "$2.90 /pkg (est.)",
+    "unit_price": "$1.29 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
   },
   {
     "id": "274412",
@@ -117,13 +108,13 @@
     "url": "https://www.aldi.us/store/aldi/products/274412-nectarines-bagged-2-lb"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 4.85,
-    "price_text": "$4.85",
-    "unit_price": "$4.85 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+    "id": "305371",
+    "name": "Red Grapes",
+    "size": "1 ct",
+    "price": 3.35,
+    "price_text": "$3.35 /pkg (est.)",
+    "unit_price": "$1.49 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
   },
   {
     "id": "3111634",
@@ -144,22 +135,13 @@
     "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
-    "id": "26312015",
-    "name": "Blueberries",
-    "size": "11 oz",
+    "id": "16527122",
+    "name": "Mandarin Oranges",
+    "size": "3 lb",
     "price": 4.39,
     "price_text": "$4.39",
-    "unit_price": "$6.39 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
-  },
-  {
-    "id": "19242784",
-    "name": "Green Grapes, per lb",
-    "size": "per lb",
-    "price": 2.9,
-    "price_text": "$2.90 /pkg (est.)",
-    "unit_price": "$1.29 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
+    "unit_price": "$1.46 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
     "id": "16383764",
@@ -169,5 +151,14 @@
     "price_text": "$3.09",
     "unit_price": "$3.09 / lb",
     "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
+  },
+  {
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 4.85,
+    "price_text": "$4.85",
+    "unit_price": "$4.85 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
   }
 ]
