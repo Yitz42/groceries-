@@ -12,9 +12,9 @@
     "id": "17327278",
     "name": "Bartlett Pears",
     "size": "3 lb",
-    "price": 2.99,
-    "price_text": "$2.99",
-    "unit_price": "$1.00 / lb",
+    "price": 2.95,
+    "price_text": "$2.95",
+    "unit_price": "$0.98 / lb",
     "url": "https://www.aldi.us/store/aldi/products/17327278-bartlett-pear-3-lbs"
   },
   {
@@ -66,9 +66,9 @@
     "id": "16701868",
     "name": "Granny Smith Apples, Bag",
     "size": "3 lb",
-    "price": 2.99,
-    "price_text": "$2.99",
-    "unit_price": "$1.00 / lb",
+    "price": 3.29,
+    "price_text": "$3.29",
+    "unit_price": "$1.10 / lb",
     "url": "https://www.aldi.us/store/aldi/products/16701868-granny-smith-apple-bag-3-lbs"
   },
   {
@@ -95,17 +95,8 @@
     "size": "per lb",
     "price": 0.15,
     "price_text": "$0.15 each (est.)",
-    "unit_price": "$0.44 / lb",
+    "unit_price": "$0.46 / lb",
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
-  },
-  {
-    "id": "16527122",
-    "name": "Mandarin Oranges",
-    "size": "3 lb",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$1.46 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
     "id": "3111634",
@@ -117,57 +108,66 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
+    "id": "16383764",
+    "name": "Strawberries",
+    "size": "1 lb",
+    "price": 2.79,
+    "price_text": "$2.79",
+    "unit_price": "$2.79 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
+  },
+  {
+    "id": "16527122",
+    "name": "Mandarin Oranges",
+    "size": "3 lb",
+    "price": 4.65,
+    "price_text": "$4.65",
+    "unit_price": "$1.55 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
+  },
+  {
     "id": "16767867",
     "name": "Kiwi",
     "size": "1 container",
-    "price": 4.65,
-    "price_text": "$4.65",
-    "unit_price": "$4.65 / each",
+    "price": 4.29,
+    "price_text": "$4.29",
+    "unit_price": "$4.29 / each",
     "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 4.85,
-    "price_text": "$4.85",
-    "unit_price": "$4.85 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+    "id": "25725888",
+    "name": "Limes, each",
+    "size": "1 each",
+    "price": 0.19,
+    "price_text": "$0.19",
+    "unit_price": "$0.19 / each",
+    "url": "https://www.aldi.us/store/aldi/products/25725888-limes-each"
   },
   {
     "id": "19242784",
     "name": "Green Grapes, per lb",
     "size": "per lb",
-    "price": 3.58,
-    "price_text": "$3.58 /pkg (est.)",
-    "unit_price": "$1.59 / lb",
+    "price": 3.46,
+    "price_text": "$3.46 /pkg (est.)",
+    "unit_price": "$1.54 / lb",
     "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
   },
   {
-    "id": "274412",
-    "name": "Nectarines",
-    "size": "2 lb",
-    "price": 4.09,
-    "price_text": "$4.09",
-    "unit_price": "$2.04 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/274412-nectarines-bagged-2-lb"
-  },
-  {
-    "id": "16383764",
-    "name": "Strawberries",
-    "size": "1 lb",
-    "price": 3.09,
-    "price_text": "$3.09",
-    "unit_price": "$3.09 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.35,
+    "price_text": "$2.35",
+    "unit_price": "$6.27 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   },
   {
     "id": "26312015",
     "name": "Blueberries",
     "size": "11 oz",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$6.39 / lb",
+    "price": 4.75,
+    "price_text": "$4.75",
+    "unit_price": "$6.91 / lb",
     "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
   }
 ]
