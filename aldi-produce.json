@@ -99,6 +99,15 @@
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
   },
   {
+    "id": "274412",
+    "name": "Nectarines",
+    "size": "2 lb",
+    "price": 4.09,
+    "price_text": "$4.09",
+    "unit_price": "$2.04 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/274412-nectarines-bagged-2-lb"
+  },
+  {
     "id": "16527122",
     "name": "Mandarin Oranges",
     "size": "3 lb",
@@ -126,22 +135,13 @@
     "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
   },
   {
-    "id": "26312015",
-    "name": "Blueberries",
-    "size": "11 oz",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$6.39 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
-  },
-  {
-    "id": "274412",
-    "name": "Nectarines",
-    "size": "2 lb",
-    "price": 4.09,
-    "price_text": "$4.09",
-    "unit_price": "$2.04 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/274412-nectarines-bagged-2-lb"
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 4.85,
+    "price_text": "$4.85",
+    "unit_price": "$4.85 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
   },
   {
     "id": "19242784",
@@ -162,12 +162,12 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 4.85,
-    "price_text": "$4.85",
-    "unit_price": "$4.85 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+    "id": "26312015",
+    "name": "Blueberries",
+    "size": "11 oz",
+    "price": 4.39,
+    "price_text": "$4.39",
+    "unit_price": "$6.39 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
   }
 ]
