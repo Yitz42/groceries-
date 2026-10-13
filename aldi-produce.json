@@ -108,15 +108,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
-    "id": "16383764",
-    "name": "Strawberries",
-    "size": "1 lb",
-    "price": 3.09,
-    "price_text": "$3.09",
-    "unit_price": "$3.09 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
-  },
-  {
     "id": "17328078",
     "name": "Golden Kiwi",
     "size": "1 lb container",
@@ -126,31 +117,22 @@
     "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
   },
   {
-    "id": "26312015",
-    "name": "Blueberries",
-    "size": "11 oz",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$6.39 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
+    "id": "16767867",
+    "name": "Kiwi",
+    "size": "1 container",
+    "price": 4.65,
+    "price_text": "$4.65",
+    "unit_price": "$4.65 / each",
+    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
-    "id": "274412",
-    "name": "Nectarines",
-    "size": "2 lb",
-    "price": 4.09,
-    "price_text": "$4.09",
-    "unit_price": "$2.04 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/274412-nectarines-bagged-2-lb"
-  },
-  {
-    "id": "3111634",
-    "name": "Large Avocados, each",
-    "size": "1 each",
-    "price": 0.75,
-    "price_text": "$0.75",
-    "unit_price": "$0.75 / each",
-    "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
+    "id": "16383764",
+    "name": "Strawberries",
+    "size": "1 lb",
+    "price": 3.09,
+    "price_text": "$3.09",
+    "unit_price": "$3.09 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
   },
   {
     "id": "17327097",
@@ -162,12 +144,30 @@
     "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.65,
-    "price_text": "$4.65",
-    "unit_price": "$4.65 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
+    "id": "3111634",
+    "name": "Large Avocados, each",
+    "size": "1 each",
+    "price": 0.75,
+    "price_text": "$0.75",
+    "unit_price": "$0.75 / each",
+    "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
+  },
+  {
+    "id": "26312015",
+    "name": "Blueberries",
+    "size": "11 oz",
+    "price": 4.39,
+    "price_text": "$4.39",
+    "unit_price": "$6.39 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
+  },
+  {
+    "id": "26423952",
+    "name": "Candy Hearts Grapes, 1 lb",
+    "size": "1 lb",
+    "price": 3.75,
+    "price_text": "$3.75",
+    "unit_price": "$3.75 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/26423952-candy-heart-grapes-bag-1-lb"
   }
 ]
