@@ -1,6 +1,6 @@
 # ALDI produce prices
 
-Updated 2026-10-22 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
+Updated 2026-10-23 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
 Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with `python3 scripts/fetch_aldi_produce.py --csv aldi-produce.csv --json aldi-produce.json && python3 scripts/build_md.py`.
 
 | Item | Size | Price | Unit price |
@@ -15,13 +15,13 @@ Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with 
 | [Granny Smith Apples, Bag](https://www.aldi.us/store/aldi/products/16701868-granny-smith-apple-bag-3-lbs) | 3 lb | $3.29 | $1.10 / lb |
 | [Red Delicious Apples](https://www.aldi.us/store/aldi/products/16553273-red-delicious-apple-bag-3-lbs) | 3 lb | $2.69 | $0.90 / lb |
 | [Garlic](https://www.aldi.us/store/aldi/products/17819978-garlic-3-ct) | 3 ct | $1.49 | $0.50 / each |
-| [Strawberries](https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb) | 1 lb | $2.95 | $2.95 / lb |
-| [Large Avocados, each](https://www.aldi.us/store/aldi/products/3111634-avocado-each) | 1 each | $0.75 | $0.75 / each |
-| [Red Grapes](https://www.aldi.us/store/aldi/products/305371-red-grapes-each) | 1 ct | $1.69 /lb | $1.69 /lb |
-| [Kiwi](https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb) | 1 container | $4.65 | $4.65 / each |
-| [Mandarin Oranges](https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs) | 3 lb | $4.39 | $1.46 / lb |
 | [Bananas, per lb](https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb) | per lb | $0.16 each (est.) | $0.49 / lb |
+| [Apples 2lb](https://www.aldi.us/store/aldi/products/29080027-sugarbee-apples-2-lb) | 2 lb | $4.09 | $2.04 / lb |
+| [Large Avocados, each](https://www.aldi.us/store/aldi/products/3111634-avocado-each) | 1 each | $0.75 | $0.75 / each |
+| [Strawberries](https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb) | 1 lb | $2.95 | $2.95 / lb |
+| [Mandarin Oranges](https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs) | 3 lb | $4.39 | $1.46 / lb |
 | [Blackberries](https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz) | 6 oz | $2.49 | $6.64 / lb |
+| [Red Grapes](https://www.aldi.us/store/aldi/products/305371-red-grapes-each) | 1 ct | $1.69 /lb | $1.69 /lb |
 | [Green Grapes, per lb](https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb) | per lb | $4.03 /pkg (est.) | $1.79 / lb |
 | [Blueberries](https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz) | 11 oz | $4.75 | $6.91 / lb |
 
