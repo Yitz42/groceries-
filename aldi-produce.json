@@ -90,6 +90,15 @@
     "url": "https://www.aldi.us/store/aldi/products/17819978-garlic-3-ct"
   },
   {
+    "id": "25720157",
+    "name": "Bananas, per lb",
+    "size": "per lb",
+    "price": 0.15,
+    "price_text": "$0.15 each (est.)",
+    "unit_price": "$0.44 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
+  },
+  {
     "id": "3111634",
     "name": "Large Avocados, each",
     "size": "1 each",
@@ -97,33 +106,6 @@
     "price_text": "$0.49",
     "unit_price": "$0.49 / each",
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
-  },
-  {
-    "id": "25720157",
-    "name": "Bananas, per lb",
-    "size": "per lb",
-    "price": 0.18,
-    "price_text": "$0.18 each (est.)",
-    "unit_price": "$0.55 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
-  },
-  {
-    "id": "17327097",
-    "name": "Raspberries",
-    "size": "6 oz",
-    "price": 2.49,
-    "price_text": "$2.49",
-    "unit_price": "$6.64 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
-  },
-  {
-    "id": "19242784",
-    "name": "Green Grapes, per lb",
-    "size": "per lb",
-    "price": 4.03,
-    "price_text": "$4.03 /pkg (est.)",
-    "unit_price": "$1.79 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
   },
   {
     "id": "16527122",
@@ -135,15 +117,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
-    "id": "26312015",
-    "name": "Blueberries",
-    "size": "11 oz",
-    "price": 4.75,
-    "price_text": "$4.75",
-    "unit_price": "$6.91 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
-  },
-  {
     "id": "17327025",
     "name": "Blackberries",
     "size": "6 oz",
@@ -153,21 +126,48 @@
     "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
   },
   {
+    "id": "19242784",
+    "name": "Green Grapes, per lb",
+    "size": "per lb",
+    "price": 4.03,
+    "price_text": "$4.03 /pkg (est.)",
+    "unit_price": "$1.79 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
+  },
+  {
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 5.19,
+    "price_text": "$5.19",
+    "unit_price": "$5.19 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+  },
+  {
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.49,
+    "price_text": "$2.49",
+    "unit_price": "$6.64 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
+  },
+  {
     "id": "305371",
     "name": "Red Grapes",
     "size": "1 ct",
-    "price": 3.8,
-    "price_text": "$3.80 /pkg (est.)",
-    "unit_price": "$1.69 / lb",
+    "price": 1.69,
+    "price_text": "$1.69 /lb",
+    "unit_price": "$1.69 /lb",
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.65,
-    "price_text": "$4.65",
-    "unit_price": "$4.65 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
+    "id": "26312015",
+    "name": "Blueberries",
+    "size": "11 oz",
+    "price": 4.75,
+    "price_text": "$4.75",
+    "unit_price": "$6.91 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
   }
 ]
