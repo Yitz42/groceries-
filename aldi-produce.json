@@ -108,6 +108,15 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
+    "id": "16767867",
+    "name": "Kiwi",
+    "size": "1 container",
+    "price": 4.65,
+    "price_text": "$4.65",
+    "unit_price": "$4.65 / each",
+    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
+  },
+  {
     "id": "16527122",
     "name": "Mandarin Oranges",
     "size": "3 lb",
@@ -135,15 +144,6 @@
     "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 5.19,
-    "price_text": "$5.19",
-    "unit_price": "$5.19 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
-  },
-  {
     "id": "17327097",
     "name": "Raspberries",
     "size": "6 oz",
@@ -153,13 +153,13 @@
     "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   },
   {
-    "id": "305371",
-    "name": "Red Grapes",
-    "size": "1 ct",
-    "price": 1.69,
-    "price_text": "$1.69 /lb",
-    "unit_price": "$1.69 /lb",
-    "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 5.19,
+    "price_text": "$5.19",
+    "unit_price": "$5.19 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
   },
   {
     "id": "26312015",
