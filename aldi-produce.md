@@ -1,6 +1,6 @@
 # ALDI produce prices
 
-Updated 2026-11-01 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
+Updated 2026-11-02 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
 Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with `python3 scripts/fetch_aldi_produce.py --csv aldi-produce.csv --json aldi-produce.json && python3 scripts/build_md.py`.
 
 | Item | Size | Price | Unit price |
@@ -19,10 +19,10 @@ Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with 
 | [Large Avocados, each](https://www.aldi.us/store/aldi/products/3111634-avocado-each) | 1 each | $0.49 | $0.49 / each |
 | [Blackberries](https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz) | 6 oz | $2.75 | $7.33 / lb |
 | [Mandarin Oranges](https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs) | 3 lb | $3.99 | $1.33 / lb |
-| [Autumn Glory Apples 2lb](https://www.aldi.us/store/aldi/products/26489977-autumn-glory-apples-bag-3-lb) | 3 lb | $3.19 | $1.06 / lb |
-| [Red Grapes](https://www.aldi.us/store/aldi/products/305371-red-grapes-each) | 1 ct | $1.69 /lb | $1.69 /lb |
-| [Green Grapes, per lb](https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb) | per lb | $4.03 /pkg (est.) | $1.79 / lb |
 | [Blueberries](https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz) | 11 oz | $4.75 | $6.91 / lb |
+| [Autumn Glory Apples 2lb](https://www.aldi.us/store/aldi/products/26489977-autumn-glory-apples-bag-3-lb) | 3 lb | $3.19 | $1.06 / lb |
+| [Green Grapes, per lb](https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb) | per lb | $4.03 /pkg (est.) | $1.79 / lb |
 | [Golden Kiwi](https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb) | 1 lb container | $5.19 | $5.19 / lb |
+| [Red Grapes](https://www.aldi.us/store/aldi/products/305371-red-grapes-each) | 1 ct | $1.69 /lb | $1.69 /lb |
 
 19 items (only those in the page's initial HTML).
