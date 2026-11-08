@@ -3,19 +3,10 @@
     "id": "25720157",
     "name": "Bananas, per lb",
     "size": "per lb",
-    "price": 0.16,
-    "price_text": "$0.16 each (est.)",
-    "unit_price": "$0.50 / lb",
+    "price": 0.18,
+    "price_text": "$0.18 each (est.)",
+    "unit_price": "$0.55 / lb",
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
-  },
-  {
-    "id": "29080027",
-    "name": "Apples 2lb",
-    "size": "2 lb",
-    "price": 4.09,
-    "price_text": "$4.09",
-    "unit_price": "$2.04 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/29080027-sugarbee-apples-2-lb"
   },
   {
     "id": "17770879",
@@ -36,15 +27,6 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
-    "id": "17327097",
-    "name": "Raspberries",
-    "size": "6 oz",
-    "price": 1.49,
-    "price_text": "$1.49",
-    "unit_price": "$3.97 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
-  },
-  {
     "id": "16527122",
     "name": "Mandarin Oranges",
     "size": "3 lb",
@@ -63,15 +45,6 @@
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$4.39 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
-  },
-  {
     "id": "3254711",
     "name": "Pomegranate",
     "size": "1 each",
@@ -81,6 +54,15 @@
     "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
   },
   {
+    "id": "19242784",
+    "name": "Green Grapes, per lb",
+    "size": "per lb",
+    "price": 4.03,
+    "price_text": "$4.03 /pkg (est.)",
+    "unit_price": "$1.79 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
+  },
+  {
     "id": "17328078",
     "name": "Golden Kiwi",
     "size": "1 lb container",
@@ -88,5 +70,23 @@
     "price_text": "$3.49",
     "unit_price": "$3.49 / lb",
     "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+  },
+  {
+    "id": "16553260",
+    "name": "Fresh Navel Oranges",
+    "size": "4 lb",
+    "price": 2.69,
+    "price_text": "$2.69",
+    "unit_price": "$0.67 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16553260-navel-orange-bag-4-lbs"
+  },
+  {
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.29,
+    "price_text": "$2.29",
+    "unit_price": "$6.11 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   }
 ]
