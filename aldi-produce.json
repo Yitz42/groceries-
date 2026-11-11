@@ -3,90 +3,90 @@
     "id": "25720157",
     "name": "Bananas, per lb",
     "size": "per lb",
-    "price": 0.16,
-    "price_text": "$0.16 each (est.)",
-    "unit_price": "$0.50 / lb",
+    "price": 0.18,
+    "price_text": "$0.18 each (est.)",
+    "unit_price": "$0.55 / lb",
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
-  },
-  {
-    "id": "17770879",
-    "name": "Honeycrisp Apples",
-    "size": "2 lb",
-    "price": 1.99,
-    "price_text": "$1.99",
-    "unit_price": "$0.99 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17770879-honeycrisp-apples-bag-2-lb"
-  },
-  {
-    "id": "17327097",
-    "name": "Raspberries",
-    "size": "6 oz",
-    "price": 1.49,
-    "price_text": "$1.49",
-    "unit_price": "$3.97 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
-  },
-  {
-    "id": "16527122",
-    "name": "Mandarin Oranges",
-    "size": "3 lb",
-    "price": 2.99,
-    "price_text": "$2.99",
-    "unit_price": "$1.00 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
-  },
-  {
-    "id": "17327025",
-    "name": "Blackberries",
-    "size": "6 oz",
-    "price": 2.75,
-    "price_text": "$2.75",
-    "unit_price": "$7.33 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
   },
   {
     "id": "3111634",
     "name": "Large Avocados, each",
     "size": "1 each",
-    "price": 0.75,
-    "price_text": "$0.75",
-    "unit_price": "$0.75 / each",
+    "price": 0.49,
+    "price_text": "$0.49",
+    "unit_price": "$0.49 / each",
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
     "id": "305371",
     "name": "Red Grapes",
     "size": "1 ct",
-    "price": 1.39,
-    "price_text": "$1.39 /lb",
-    "unit_price": "$1.39 /lb",
+    "price": 1.69,
+    "price_text": "$1.69 /lb",
+    "unit_price": "$1.69 /lb",
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
+  },
+  {
+    "id": "17770879",
+    "name": "Honeycrisp Apples",
+    "size": "2 lb",
+    "price": 2.35,
+    "price_text": "$2.35",
+    "unit_price": "$1.18 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17770879-honeycrisp-apples-bag-2-lb"
+  },
+  {
+    "id": "16527122",
+    "name": "Mandarin Oranges",
+    "size": "3 lb",
+    "price": 2.69,
+    "price_text": "$2.69",
+    "unit_price": "$0.90 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
     "id": "3254711",
     "name": "Pomegranate",
     "size": "1 each",
-    "price": 1.29,
-    "price_text": "$1.29",
-    "unit_price": "$1.29 / each",
+    "price": 1.89,
+    "price_text": "$1.89",
+    "unit_price": "$1.89 / each",
     "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$4.39 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.55,
+    "price_text": "$2.55",
+    "unit_price": "$6.80 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   },
   {
-    "id": "16383764",
-    "name": "Strawberries",
-    "size": "1 lb",
-    "price": 3.85,
-    "price_text": "$3.85",
-    "unit_price": "$3.85 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 5.19,
+    "price_text": "$5.19",
+    "unit_price": "$5.19 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+  },
+  {
+    "id": "16553260",
+    "name": "Fresh Navel Oranges",
+    "size": "4 lb",
+    "price": 2.99,
+    "price_text": "$2.99",
+    "unit_price": "$0.75 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16553260-navel-orange-bag-4-lbs"
+  },
+  {
+    "id": "19242784",
+    "name": "Green Grapes, per lb",
+    "size": "per lb",
+    "price": 4.03,
+    "price_text": "$4.03 /pkg (est.)",
+    "unit_price": "$1.79 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/19242784-green-grapes-per-lb"
   }
 ]
