@@ -3,10 +3,19 @@
     "id": "25720157",
     "name": "Bananas, per lb",
     "size": "per lb",
-    "price": 0.16,
-    "price_text": "$0.16 each (est.)",
-    "unit_price": "$0.50 / lb",
+    "price": 0.14,
+    "price_text": "$0.14 each (est.)",
+    "unit_price": "$0.43 / lb",
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
+  },
+  {
+    "id": "29080027",
+    "name": "Apples 2lb",
+    "size": "2 lb",
+    "price": 4.09,
+    "price_text": "$4.09",
+    "unit_price": "$2.04 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/29080027-sugarbee-apples-2-lb"
   },
   {
     "id": "17770879",
@@ -18,15 +27,6 @@
     "url": "https://www.aldi.us/store/aldi/products/17770879-honeycrisp-apples-bag-2-lb"
   },
   {
-    "id": "3111634",
-    "name": "Large Avocados, each",
-    "size": "1 each",
-    "price": 0.49,
-    "price_text": "$0.49",
-    "unit_price": "$0.49 / each",
-    "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
-  },
-  {
     "id": "17327025",
     "name": "Blackberries",
     "size": "6 oz",
@@ -34,6 +34,15 @@
     "price_text": "$1.69",
     "unit_price": "$4.51 / lb",
     "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
+  },
+  {
+    "id": "3111634",
+    "name": "Large Avocados, each",
+    "size": "1 each",
+    "price": 0.49,
+    "price_text": "$0.49",
+    "unit_price": "$0.49 / each",
+    "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
     "id": "16527122",
@@ -45,15 +54,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
-    "id": "16631440",
-    "name": "Cranberries 12oz",
-    "size": "12 oz",
-    "price": 0.75,
-    "price_text": "$0.75",
-    "unit_price": "$1.00 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/16631440-cranberries-package-12-oz"
-  },
-  {
     "id": "16767867",
     "name": "Kiwi",
     "size": "1 container",
@@ -63,15 +63,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 5.19,
-    "price_text": "$5.19",
-    "unit_price": "$5.19 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
-  },
-  {
     "id": "305371",
     "name": "Red Grapes",
     "size": "1 ct",
@@ -79,6 +70,15 @@
     "price_text": "$1.69 /lb",
     "unit_price": "$1.69 /lb",
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
+  },
+  {
+    "id": "17328078",
+    "name": "Golden Kiwi",
+    "size": "1 lb container",
+    "price": 5.19,
+    "price_text": "$5.19",
+    "unit_price": "$5.19 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
   },
   {
     "id": "16553260",
