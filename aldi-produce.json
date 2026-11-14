@@ -3,9 +3,9 @@
     "id": "25720157",
     "name": "Bananas, per lb",
     "size": "per lb",
-    "price": 0.14,
-    "price_text": "$0.14 each (est.)",
-    "unit_price": "$0.43 / lb",
+    "price": 0.16,
+    "price_text": "$0.16 each (est.)",
+    "unit_price": "$0.49 / lb",
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
   },
   {
@@ -27,13 +27,13 @@
     "url": "https://www.aldi.us/store/aldi/products/17770879-honeycrisp-apples-bag-2-lb"
   },
   {
-    "id": "17327025",
-    "name": "Blackberries",
-    "size": "6 oz",
-    "price": 1.69,
-    "price_text": "$1.69",
-    "unit_price": "$4.51 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
+    "id": "26489977",
+    "name": "Autumn Glory Apples",
+    "size": "1 each",
+    "price": 3.19,
+    "price_text": "$3.19",
+    "unit_price": "$3.19 / each",
+    "url": "https://www.aldi.us/store/aldi/products/26489977-autumn-glory-apples-bag-3-lb"
   },
   {
     "id": "3111634",
@@ -54,15 +54,6 @@
     "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$4.39 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
-  },
-  {
     "id": "305371",
     "name": "Red Grapes",
     "size": "1 ct",
@@ -72,13 +63,22 @@
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 5.19,
-    "price_text": "$5.19",
-    "unit_price": "$5.19 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+    "id": "17327025",
+    "name": "Blackberries",
+    "size": "6 oz",
+    "price": 1.69,
+    "price_text": "$1.69",
+    "unit_price": "$4.51 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
+  },
+  {
+    "id": "26312015",
+    "name": "Blueberries",
+    "size": "11 oz",
+    "price": 4.29,
+    "price_text": "$4.29",
+    "unit_price": "$6.24 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/26312015-always-fresh-farms-blueberries-11-oz"
   },
   {
     "id": "16553260",
