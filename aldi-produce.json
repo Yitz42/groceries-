@@ -9,6 +9,15 @@
     "url": "https://www.aldi.us/store/aldi/products/25720157-bananas-per-lb"
   },
   {
+    "id": "29080027",
+    "name": "Apples 2lb",
+    "size": "2 lb",
+    "price": 4.09,
+    "price_text": "$4.09",
+    "unit_price": "$2.04 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/29080027-sugarbee-apples-2-lb"
+  },
+  {
     "id": "17770879",
     "name": "Honeycrisp Apples",
     "size": "2 lb",
@@ -36,31 +45,13 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
-    "id": "17327025",
-    "name": "Blackberries",
-    "size": "6 oz",
-    "price": 1.69,
-    "price_text": "$1.69",
-    "unit_price": "$4.51 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
-  },
-  {
-    "id": "17327097",
-    "name": "Raspberries",
-    "size": "6 oz",
-    "price": 2.55,
-    "price_text": "$2.55",
-    "unit_price": "$6.80 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
-  },
-  {
-    "id": "3254711",
-    "name": "Pomegranate",
+    "id": "26489977",
+    "name": "Autumn Glory Apples",
     "size": "1 each",
-    "price": 1.89,
-    "price_text": "$1.89",
-    "unit_price": "$1.89 / each",
-    "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
+    "price": 3.19,
+    "price_text": "$3.19",
+    "unit_price": "$3.19 / each",
+    "url": "https://www.aldi.us/store/aldi/products/26489977-autumn-glory-apples-bag-3-lb"
   },
   {
     "id": "26312015",
@@ -81,12 +72,21 @@
     "url": "https://www.aldi.us/store/aldi/products/16553260-navel-orange-bag-4-lbs"
   },
   {
-    "id": "455048",
-    "name": "Lemons",
-    "size": "2 lb",
-    "price": 3.19,
-    "price_text": "$3.19",
-    "unit_price": "$1.59 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/455048-lemon-2-lbs"
+    "id": "305371",
+    "name": "Red Grapes",
+    "size": "1 ct",
+    "price": 1.69,
+    "price_text": "$1.69 /lb",
+    "unit_price": "$1.69 /lb",
+    "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
+  },
+  {
+    "id": "3254711",
+    "name": "Pomegranate",
+    "size": "1 each",
+    "price": 1.89,
+    "price_text": "$1.89",
+    "unit_price": "$1.89 / each",
+    "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
   }
 ]
