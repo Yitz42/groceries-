@@ -63,30 +63,30 @@
     "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
   },
   {
-    "id": "3254711",
-    "name": "Pomegranate",
-    "size": "1 each",
-    "price": 1.89,
-    "price_text": "$1.89",
-    "unit_price": "$1.89 / each",
-    "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.29,
+    "price_text": "$2.29",
+    "unit_price": "$6.11 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
   },
   {
-    "id": "17328078",
-    "name": "Golden Kiwi",
-    "size": "1 lb container",
-    "price": 5.19,
-    "price_text": "$5.19",
-    "unit_price": "$5.19 / lb",
-    "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+    "id": "16631440",
+    "name": "Cranberries 12oz",
+    "size": "12 oz",
+    "price": 0.75,
+    "price_text": "$0.75",
+    "unit_price": "$1.00 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16631440-cranberries-package-12-oz"
   },
   {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$4.39 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
+    "id": "16383764",
+    "name": "Strawberries",
+    "size": "1 lb",
+    "price": 4.55,
+    "price_text": "$4.55",
+    "unit_price": "$4.55 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb"
   }
 ]

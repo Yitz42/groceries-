@@ -1,6 +1,6 @@
 # ALDI produce prices
 
-Updated 2026-11-21 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
+Updated 2026-11-22 from https://www.aldi.us/store/aldi/pages/fresh-produce (default store; prices change).
 Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with `python3 scripts/fetch_aldi_produce.py --csv aldi-produce.csv --json aldi-produce.json && python3 scripts/build_md.py`.
 
 | Item | Size | Price | Unit price |
@@ -12,8 +12,8 @@ Updated daily by `.github/workflows/update-aldi-produce.yml`; run manually with 
 | [Blackberries](https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz) | 6 oz | $2.55 | $6.80 / lb |
 | [Fresh Navel Oranges](https://www.aldi.us/store/aldi/products/16553260-navel-orange-bag-4-lbs) | 4 lb | $2.69 | $0.67 / lb |
 | [Red Grapes](https://www.aldi.us/store/aldi/products/305371-red-grapes-each) | 1 ct | $1.69 /lb | $1.69 /lb |
-| [Pomegranate](https://www.aldi.us/store/aldi/products/3254711-pomegranate-each) | 1 each | $1.89 | $1.89 / each |
-| [Golden Kiwi](https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb) | 1 lb container | $5.19 | $5.19 / lb |
-| [Kiwi](https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb) | 1 container | $4.39 | $4.39 / each |
+| [Raspberries](https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz) | 6 oz | $2.29 | $6.11 / lb |
+| [Cranberries 12oz](https://www.aldi.us/store/aldi/products/16631440-cranberries-package-12-oz) | 12 oz | $0.75 | $1.00 / lb |
+| [Strawberries](https://www.aldi.us/store/aldi/products/16383764-whole-strawberries-1-lb) | 1 lb | $4.55 | $4.55 / lb |
 
 10 items (only those in the page's initial HTML).
