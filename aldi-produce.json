@@ -36,15 +36,6 @@
     "url": "https://www.aldi.us/store/aldi/products/3111634-avocado-each"
   },
   {
-    "id": "3254711",
-    "name": "Pomegranate",
-    "size": "1 each",
-    "price": 1.89,
-    "price_text": "$1.89",
-    "unit_price": "$1.89 / each",
-    "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
-  },
-  {
     "id": "16527122",
     "name": "Mandarin Oranges",
     "size": "3 lb",
@@ -52,15 +43,6 @@
     "price_text": "$2.69",
     "unit_price": "$0.90 / lb",
     "url": "https://www.aldi.us/store/aldi/products/16527122-mandarin-clementine-3-lbs"
-  },
-  {
-    "id": "16767867",
-    "name": "Kiwi",
-    "size": "1 container",
-    "price": 4.39,
-    "price_text": "$4.39",
-    "unit_price": "$4.39 / each",
-    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
     "id": "17327025",
@@ -72,13 +54,22 @@
     "url": "https://www.aldi.us/store/aldi/products/17327025-blackberries-6-oz"
   },
   {
-    "id": "305371",
-    "name": "Red Grapes",
-    "size": "1 ct",
-    "price": 1.69,
-    "price_text": "$1.69 /lb",
-    "unit_price": "$1.69 /lb",
-    "url": "https://www.aldi.us/store/aldi/products/305371-red-grapes-each"
+    "id": "17327097",
+    "name": "Raspberries",
+    "size": "6 oz",
+    "price": 2.55,
+    "price_text": "$2.55",
+    "unit_price": "$6.80 / lb",
+    "url": "https://www.aldi.us/store/aldi/products/17327097-raspberries-package-6-oz"
+  },
+  {
+    "id": "16767867",
+    "name": "Kiwi",
+    "size": "1 container",
+    "price": 4.39,
+    "price_text": "$4.39",
+    "unit_price": "$4.39 / each",
+    "url": "https://www.aldi.us/store/aldi/products/16767867-green-kiwi-package-1-lb"
   },
   {
     "id": "17328078",
@@ -88,5 +79,14 @@
     "price_text": "$5.19",
     "unit_price": "$5.19 / lb",
     "url": "https://www.aldi.us/store/aldi/products/17328078-golden-kiwi-package-1-lb"
+  },
+  {
+    "id": "3254711",
+    "name": "Pomegranate",
+    "size": "1 each",
+    "price": 1.89,
+    "price_text": "$1.89",
+    "unit_price": "$1.89 / each",
+    "url": "https://www.aldi.us/store/aldi/products/3254711-pomegranate-each"
   }
 ]
